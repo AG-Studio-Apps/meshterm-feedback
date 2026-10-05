@@ -1,0 +1,47 @@
+title: "[Idea]: "
+labels: ["feature-request"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Ideas is for early or open-ended suggestions you would like to talk through with other meshTerm users. If you already know exactly what you want, a [feature request](https://github.com/AG-Studio-Apps/meshterm-feedback/issues/new?template=feature_request.yml) is the better fit.
+
+        **This is public.** Please keep hostnames, addresses, usernames and secrets out of your post.
+
+  - type: textarea
+    id: idea
+    attributes:
+      label: The idea
+      description: What would you like meshTerm to do, or do differently?
+    validations:
+      required: true
+
+  - type: textarea
+    id: why
+    attributes:
+      label: Why it would help
+      description: What problem does it solve, or what would it make easier for you?
+    validations:
+      required: true
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      multiple: true
+      options:
+        - Terminal
+        - Keyboard
+        - tmux
+        - mtRoam
+        - Tailscale
+        - Agents chat
+        - herdr
+        - Notifications
+        - SFTP
+        - Containers
+        - Sync
+        - Purchases
+        - Other
+    validations:
+      required: false

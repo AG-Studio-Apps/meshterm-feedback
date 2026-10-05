@@ -1,0 +1,32 @@
+title: "[Show and tell]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Share how you use meshTerm: your agent workflow, a herdr or tmux setup, a keyboard layout or macro set, a colour theme, a screenshot you are proud of. We love seeing these.
+
+        **This is public.** Before you post a screenshot or recording, crop or blur hostnames, IP addresses, usernames, tailnet names and anything in the terminal you would not want the world to read.
+
+  - type: textarea
+    id: what
+    attributes:
+      label: What are you sharing?
+      description: Tell us about it, and add screenshots or recordings if you like.
+    validations:
+      required: true
+
+  - type: textarea
+    id: how
+    attributes:
+      label: How to set it up
+      description: Optional. Any steps or config others would need to try it themselves (with secrets removed).
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Privacy check
+      options:
+        - label: I have removed or blurred hostnames, addresses, usernames, keys, tokens and anything else private.
+          required: true

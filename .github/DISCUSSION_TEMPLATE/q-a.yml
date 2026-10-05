@@ -1,0 +1,49 @@
+title: "[Q&A]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Ask anything about using meshTerm. The [user guide](https://docs.meshterm.com/meshterm.html) and its [troubleshooting section](https://docs.meshterm.com/meshterm.html#troubleshooting) answer many common questions, so it is worth a quick look first.
+
+        **This is public.** Please do not include hostnames, IP addresses, usernames, keys, tokens, terminal output or logs containing secrets. Replace them with placeholders such as `myserver` or `REDACTED`.
+
+        Billing, account or anything personal? Please email meshterm@gmail.com instead.
+
+  - type: textarea
+    id: question
+    attributes:
+      label: Your question
+      description: What are you trying to do, and what have you tried so far?
+    validations:
+      required: true
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      multiple: true
+      options:
+        - Terminal
+        - Keyboard
+        - tmux
+        - mtRoam
+        - Tailscale
+        - Agents chat
+        - herdr
+        - Notifications
+        - SFTP
+        - Containers
+        - Sync
+        - Purchases
+        - Other
+    validations:
+      required: false
+
+  - type: textarea
+    id: app-details
+    attributes:
+      label: App details
+      description: Optional, but helpful. In meshTerm, go to **Settings, General, About**, tap **Copy details** and paste here. It contains no host or session data.
+      render: text
+    validations:
+      required: false

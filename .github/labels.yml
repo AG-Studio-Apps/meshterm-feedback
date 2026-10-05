@@ -1,0 +1,75 @@
+# Label set for AG-Studio-Apps/meshterm-feedback.
+# Apply with the loop in SETUP.md (gh label create --force is idempotent).
+# Colours are hex without the leading '#'.
+
+# Type
+- name: bug
+  color: d73a4a
+  description: Something is broken or not working as it should
+- name: feature-request
+  color: a2eeef
+  description: A request for a new feature or a change
+
+# Lifecycle
+- name: triage
+  color: fbca04
+  description: New, not yet looked at
+- name: needs-info
+  color: f9d0c4
+  description: Waiting on more information from the reporter
+- name: planned
+  color: 0e8a16
+  description: Accepted and intended, not yet started
+- name: in-progress
+  color: 1d76db
+  description: Being worked on now
+- name: shipped
+  color: 5319e7
+  description: Done; see the closing comment for the version it shipped in
+- name: duplicate
+  color: cfd3d7
+  description: Already tracked in another issue
+- name: wontfix
+  color: ffffff
+  description: Decided not to do this; the issue explains why
+
+# Areas
+- name: area/terminal
+  color: c5def5
+  description: Terminal rendering, scrollback, selection, search, themes
+- name: area/keyboard
+  color: c5def5
+  description: Keyboard, palette, key groups, macros, predictions
+- name: area/tmux
+  color: c5def5
+  description: tmux control mode, windows and panes, reattach
+- name: area/mtroam
+  color: c5def5
+  description: mtRoam persistent sessions and the mtroamd daemon
+- name: area/tailscale
+  color: c5def5
+  description: Built-in Tailscale, Tailscale SSH, profiles, device browsing
+- name: area/agents-chat
+  color: c5def5
+  description: Claude, Codex and Gemini agent chat
+- name: area/herdr
+  color: c5def5
+  description: herdr integration, Set Up herdr, herdr overview and approvals
+- name: area/notifications
+  color: c5def5
+  description: Agent notifications, push relay, Live Activities
+- name: area/sftp
+  color: c5def5
+  description: SFTP file browser and Files integration
+- name: area/containers
+  color: c5def5
+  description: Docker and Podman management
+- name: area/sync
+  color: c5def5
+  description: iCloud Sync
+- name: area/purchases
+  color: c5def5
+  description: meshTerm Pro, subscriptions, restoring purchases
+- name: area/other
+  color: c5def5
+  description: Anything not covered by another area

@@ -1,0 +1,14 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Questions and help
+    url: https://github.com/AG-Studio-Apps/meshterm-feedback/discussions/categories/q-a
+    about: Not sure if it is a bug, or need help setting something up? Ask in Discussions Q&A.
+  - name: Ideas and show and tell
+    url: https://github.com/AG-Studio-Apps/meshterm-feedback/discussions
+    about: Talk through early ideas or share your setup with other meshTerm users.
+  - name: meshTerm docs
+    url: https://docs.meshterm.com/meshterm.html
+    about: The user guide, including a troubleshooting section.
+  - name: Security issues and private matters
+    url: https://github.com/AG-Studio-Apps/meshterm-feedback/security/policy
+    about: Please report security problems, billing and anything personal privately by email (meshterm@gmail.com), never in a public issue.

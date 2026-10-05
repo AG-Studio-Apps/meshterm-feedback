@@ -1,0 +1,156 @@
+name: Bug report
+description: Something in meshTerm is broken or not working as it should.
+title: "[Bug]: "
+labels: ["bug", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a bug!
+
+        **This repository is public.** Please do not include hostnames, IP addresses, usernames, keys, tokens, terminal output or logs containing secrets. Replace them with placeholders such as `myserver` or `REDACTED`.
+
+        Please [search existing issues](https://github.com/AG-Studio-Apps/meshterm-feedback/issues?q=is%3Aissue) first. If you find your bug, add a 👍 to it instead of opening a new one.
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: A short description of the problem.
+      placeholder: After rotating the phone, the tmux pane stops redrawing until I reconnect.
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: The exact steps that lead to the problem, starting from a fresh launch if you can.
+      placeholder: |
+        1. Connect to a host over Tailscale
+        2. Open a tmux session
+        3. Rotate the phone to landscape
+        4. ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behaviour
+      description: What did you expect to happen?
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behaviour
+      description: What happened instead? Include any error message shown in the app (redacted).
+    validations:
+      required: true
+
+  - type: dropdown
+    id: frequency
+    attributes:
+      label: How often does it happen?
+      options:
+        - Every time
+        - Often
+        - Sometimes
+        - Only once so far
+    validations:
+      required: true
+
+  - type: dropdown
+    id: connection
+    attributes:
+      label: Connection type
+      description: How does meshTerm reach the host? Pick all that apply.
+      multiple: true
+      options:
+        - Direct SSH
+        - Tailscale (built-in, regular SSH over the tailnet)
+        - Tailscale SSH
+        - mtRoam
+        - Not connection related
+    validations:
+      required: true
+
+  - type: dropdown
+    id: persistence
+    attributes:
+      label: Session persistence
+      description: Which persistence is the host set to use?
+      options:
+        - tmux
+        - mtRoam
+        - None
+        - Not sure
+        - Not relevant
+    validations:
+      required: true
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      description: Which part of the app is affected? Pick all that apply.
+      multiple: true
+      options:
+        - Terminal
+        - Keyboard
+        - tmux
+        - mtRoam
+        - Tailscale
+        - Agents chat
+        - herdr
+        - Notifications
+        - SFTP
+        - Containers
+        - Sync
+        - Purchases
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: app-details
+    attributes:
+      label: App details
+      description: |
+        In meshTerm, go to **Settings, General, About** and tap **Copy details**, then paste here. It contains no host or session data.
+        If you do not have Copy details yet, type your app version (from Settings, General, About), iOS version and device model.
+      placeholder: |
+        meshTerm 2.2.0 (20261004120000)
+        iOS 26.0, iPhone17,1, en_GB
+        Plan: Pro
+        Features: ...
+      render: text
+    validations:
+      required: true
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots or screen recording
+      description: Optional. Drag images or videos here. Please crop or blur hostnames, usernames, addresses and anything else private.
+    validations:
+      required: false
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else?
+      description: Optional. Workarounds you have found, when it started (for example after an update), host OS, tmux version, and so on.
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Privacy check
+      description: This repository is public and posts are kept indefinitely.
+      options:
+        - label: I have removed hostnames, IP addresses, usernames, keys, tokens and any other private information from this report and its attachments.
+          required: true
