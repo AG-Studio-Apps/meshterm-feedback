@@ -136,7 +136,7 @@ This is a friendly place. Everyone taking part is expected to follow our [Code o
 
 ## Links
 
-- **App Store:** [meshTerm on the App Store](APP_STORE_URL)
+- **App Store:** [meshTerm on the App Store](https://apps.apple.com/app/id6761196011)
 - **User guide:** [docs.meshterm.com/meshterm.html](https://docs.meshterm.com/meshterm.html)
 - **Troubleshooting:** [docs.meshterm.com/meshterm.html#troubleshooting](https://docs.meshterm.com/meshterm.html#troubleshooting)
 - **Website:** [docs.meshterm.com](https://docs.meshterm.com)

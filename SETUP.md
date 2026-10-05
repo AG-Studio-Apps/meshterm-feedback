@@ -4,7 +4,7 @@ Notes for James. Nothing here has been run yet. Run from this directory. Needs `
 
 ## 0. Before publishing
 
-- [ ] Replace `APP_STORE_URL` in `README.md` with the real App Store link (`https://apps.apple.com/app/id<APPLE_ID>`).
+- [x] App Store link set (app id 6761196011).
 - [ ] Confirm the support address. Every file uses `meshterm@gmail.com` (the address on docs.meshterm.com). To change it everywhere:
       `grep -rl 'meshterm@gmail.com' . | xargs sed -i 's/meshterm@gmail.com/NEW@ADDRESS/g'`
 - [ ] The README and forms point users to **Settings, General, About, Copy details**. Make sure that row ships in the app (or adjust the wording) before linking people here. The 2.2 What's New also says "Settings, About, Contact", so a Contact row should point at this repo or the email.
