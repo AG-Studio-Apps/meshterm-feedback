@@ -93,7 +93,11 @@ If your version of meshTerm does not have **Copy Details** yet, type the app ver
 
 ### Using an AI agent to write your report
 
-The Copy Details block is designed to be agent-friendly. If you use Claude, ChatGPT, Gemini or another assistant, you can paste it in together with a description of the problem and ask it to draft the issue for you. For example:
+The Copy Details block is designed to be agent-friendly. If you use Claude, ChatGPT, Gemini or another assistant, you can paste it in together with a description of the problem and ask it to draft the issue for you.
+
+The quickest way is in the app: **Settings, Feedback and Feature Requests, Write It with an AI Agent** shows a ready-made prompt with your app details and the links to both forms already attached. Tap **Copy** (or **Share**), paste it into your agent and add what happened in your own words.
+
+Or write the prompt yourself. For example:
 
 > Here are my meshTerm app details and a description of a bug. Please draft a GitHub issue using the meshTerm bug report form fields: summary, steps to reproduce, expected behaviour, actual behaviour, frequency, connection type, persistence and area. Keep it concise and remove any hostnames, IP addresses, usernames or secrets.
 
