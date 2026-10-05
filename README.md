@@ -21,7 +21,7 @@ meshTerm is made by a small independent developer, AG Applications LTD. Every re
 | Share your setup, a workflow or a screenshot you are proud of | [Discussions: Show and tell](https://github.com/AG-Studio-Apps/meshterm-feedback/discussions/categories/show-and-tell) |
 | Read the docs | [docs.meshterm.com](https://docs.meshterm.com/meshterm.html) |
 | Report a security problem | **Email, not GitHub.** See [SECURITY.md](SECURITY.md) |
-| Anything private: billing, your account, your purchase, anything with personal details | **Email** [meshterm@gmail.com](mailto:meshterm@gmail.com), or **Settings, General, About, Contact** in the app |
+| Anything private: billing, your account, your purchase, anything with personal details | **Email** [meshterm@gmail.com](mailto:meshterm@gmail.com), or **Settings, Feedback and Feature Requests, Contact** in the app |
 
 Not sure whether something is a bug or a question? Start a [Q&A discussion](https://github.com/AG-Studio-Apps/meshterm-feedback/discussions/categories/q-a). We can turn it into an issue if it needs one.
 
@@ -75,7 +75,7 @@ If you accidentally post a secret, **revoke or rotate it straight away** (deleti
 
 ## The "Copy Details" block
 
-In meshTerm, go to **Settings, General, About** and tap **Copy Details**. It copies a short, plain-text summary like this to your clipboard:
+In meshTerm, go to **Settings, Feedback and Feature Requests** and tap **Copy Details**. It copies a short, plain-text summary like this to your clipboard:
 
 ```text
 meshTerm 2.2.0 (20261004120000), App Store

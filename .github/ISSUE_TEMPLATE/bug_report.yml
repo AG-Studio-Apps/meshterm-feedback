@@ -121,7 +121,7 @@ body:
     attributes:
       label: App details
       description: |
-        In meshTerm, go to **Settings, General, About** and tap **Copy Details**, then paste here. It contains no hostnames, addresses, usernames or session data.
+        In meshTerm, go to **Settings, Feedback and Feature Requests** and tap **Copy Details**, then paste here. It contains no hostnames, addresses, usernames or session data.
         If you do not have Copy Details yet, type your app version (from Settings, General, About), iOS version and device model.
       placeholder: |
         meshTerm 2.2.0 (20261004120000), App Store

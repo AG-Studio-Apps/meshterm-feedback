@@ -12,7 +12,7 @@ Please include:
 
 - what the problem is and what an attacker could do with it
 - the steps to reproduce it, or a proof of concept
-- the meshTerm version and build (from **Settings, General, About**, or the **Copy Details** block), and your iOS version
+- the meshTerm version and build (from **Settings, General, About**, or the **Copy Details** block in **Settings, Feedback and Feature Requests**), and your iOS version
 - whether you have shared it with anyone else
 
 Please **do not** send real private keys, passwords or tokens belonging to you or anyone else. Use throwaway test credentials and test hosts.

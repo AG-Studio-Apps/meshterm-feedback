@@ -7,7 +7,7 @@ Notes for James. Nothing here has been run yet. Run from this directory. Needs `
 - [x] App Store link set (app id 6761196011).
 - [ ] Confirm the support address. Every file uses `meshterm@gmail.com` (the address on docs.meshterm.com). To change it everywhere:
       `grep -rl --exclude-dir=.git 'meshterm@gmail.com' . | xargs sed -i 's/meshterm@gmail.com/NEW@ADDRESS/g'`
-- [ ] The README and forms point users to **Settings, General, About, Copy Details** and **Settings, General, About, Contact**, and the README example block matches the app's planned format (meshTerm `docs/feedback-and-rating-plan.md` section 4.2). Make sure those rows ship in the app (or adjust the wording) before linking people here. The repo must be public before the TestFlight build that links to it.
+- [ ] The README and forms point users to **Settings, Feedback and Feature Requests** (its own row in the app's Settings, holding Copy Details, Contact, Rate and the links here), and the README example block matches the app's format (meshTerm `docs/feedback-and-rating-plan.md` section 4.2, pinned by the app's README parity test). Make sure those rows ship in the app (or adjust the wording) before linking people here. The repo must be public before the TestFlight build that links to it.
 - [ ] The app prefills the `app-details` field (both forms) and the bug form's `area` field by id. Do not rename those ids.
 
 ## 1. Create the repo and push
