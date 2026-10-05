@@ -21,7 +21,7 @@ meshTerm is made by a small independent developer, AG Applications LTD. Every re
 | Share your setup, a workflow or a screenshot you are proud of | [Discussions: Show and tell](https://github.com/AG-Studio-Apps/meshterm-feedback/discussions/categories/show-and-tell) |
 | Read the docs | [docs.meshterm.com](https://docs.meshterm.com/meshterm.html) |
 | Report a security problem | **Email, not GitHub.** See [SECURITY.md](SECURITY.md) |
-| Anything private: billing, your account, your purchase, anything with personal details | **Email** [meshterm@gmail.com](mailto:meshterm@gmail.com) |
+| Anything private: billing, your account, your purchase, anything with personal details | **Email** [meshterm@gmail.com](mailto:meshterm@gmail.com), or **Settings, General, About, Contact** in the app |
 
 Not sure whether something is a bug or a question? Start a [Q&A discussion](https://github.com/AG-Studio-Apps/meshterm-feedback/discussions/categories/q-a). We can turn it into an issue if it needs one.
 
@@ -50,7 +50,7 @@ The forms will prompt you, but in short:
 - **What you expected, and what actually happened.**
 - **How often it happens.** Every time, sometimes, or once.
 - **How you connect.** Direct SSH, Tailscale, Tailscale SSH or mtRoam, and which persistence you use (tmux, mtRoam or none).
-- **Your app details.** Paste the **Copy details** block (see below).
+- **Your app details.** Paste the **Copy Details** block (see below).
 - **A screenshot or screen recording**, if it helps. Please check it for private information first.
 
 ---
@@ -73,26 +73,27 @@ If you accidentally post a secret, **revoke or rotate it straight away** (deleti
 
 ---
 
-## The "Copy details" block
+## The "Copy Details" block
 
-In meshTerm, go to **Settings, General, About** and tap **Copy details**. It copies a short, plain-text summary like this to your clipboard:
+In meshTerm, go to **Settings, General, About** and tap **Copy Details**. It copies a short, plain-text summary like this to your clipboard:
 
 ```text
-meshTerm 2.2.0 (20261004120000)
+meshTerm 2.2.0 (20261004120000), App Store
 iOS 26.0, iPhone17,1, en_GB
 Plan: Pro
-Features: tmux control mode, Tailscale (in-app), herdr, agents (Claude, Codex), notifications on, iCloud Sync off
+Features: tmux control mode, Tailscale (in-app), herdr, agents (Claude, Codex), notifications on, iCloud Sync off, App Lock on
+Counts: 3 hosts, 2 terminal sessions, 3 agent sessions, mtroamd 1.8.1
 ```
 
-It contains your app version and build, iOS version, device model, language and region, whether you are on the free plan or Pro, and a summary of which features are switched on. **It contains no hosts, addresses, usernames, keys or session data**, so it is safe to paste here as it is.
+It contains your app version and build, where you installed it from (App Store or TestFlight), iOS version, device model, language and region, whether you are on the free plan or Pro, a summary of which features are switched on, how many hosts and sessions you have, and the mtroamd versions your hosts reported. **It contains no hostnames, addresses, usernames, keys, session names or session contents**, so it is safe to paste here as it is.
 
 Paste it into the **App details** box on the bug or feature form. It saves a round of "which version are you on?" and gets your report looked at sooner.
 
-If your version of meshTerm does not have **Copy details** yet, type the app version shown in **Settings, General, About**, your iOS version and your device model instead.
+If your version of meshTerm does not have **Copy Details** yet, type the app version shown in **Settings, General, About**, your iOS version and your device model instead.
 
 ### Using an AI agent to write your report
 
-The Copy details block is designed to be agent-friendly. If you use Claude, ChatGPT, Gemini or another assistant, you can paste it in together with a description of the problem and ask it to draft the issue for you. For example:
+The Copy Details block is designed to be agent-friendly. If you use Claude, ChatGPT, Gemini or another assistant, you can paste it in together with a description of the problem and ask it to draft the issue for you. For example:
 
 > Here are my meshTerm app details and a description of a bug. Please draft a GitHub issue using the meshTerm bug report form fields: summary, steps to reproduce, expected behaviour, actual behaviour, frequency, connection type, persistence and area. Keep it concise and remove any hostnames, IP addresses, usernames or secrets.
 

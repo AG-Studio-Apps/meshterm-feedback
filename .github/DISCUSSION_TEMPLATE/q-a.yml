@@ -43,7 +43,7 @@ body:
     id: app-details
     attributes:
       label: App details
-      description: Optional, but helpful. In meshTerm, go to **Settings, General, About**, tap **Copy details** and paste here. It contains no host or session data.
+      description: Optional, but helpful. In meshTerm, go to **Settings, General, About**, tap **Copy Details** and paste here. It contains no hostnames, addresses, usernames or session data.
       render: text
     validations:
       required: false

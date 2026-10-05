@@ -85,13 +85,14 @@ body:
       options:
         - tmux
         - mtRoam
-        - None
+        - No persistence
         - Not sure
         - Not relevant
     validations:
       required: true
 
   - type: dropdown
+    # The meshTerm app prefills this field by id. Do not rename it.
     id: area
     attributes:
       label: Area
@@ -115,17 +116,19 @@ body:
       required: true
 
   - type: textarea
+    # The meshTerm app prefills this field by id. Do not rename it.
     id: app-details
     attributes:
       label: App details
       description: |
-        In meshTerm, go to **Settings, General, About** and tap **Copy details**, then paste here. It contains no host or session data.
-        If you do not have Copy details yet, type your app version (from Settings, General, About), iOS version and device model.
+        In meshTerm, go to **Settings, General, About** and tap **Copy Details**, then paste here. It contains no hostnames, addresses, usernames or session data.
+        If you do not have Copy Details yet, type your app version (from Settings, General, About), iOS version and device model.
       placeholder: |
-        meshTerm 2.2.0 (20261004120000)
+        meshTerm 2.2.0 (20261004120000), App Store
         iOS 26.0, iPhone17,1, en_GB
         Plan: Pro
         Features: ...
+        Counts: ...
       render: text
     validations:
       required: true
